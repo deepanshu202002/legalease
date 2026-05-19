@@ -9,6 +9,12 @@ export const metadata: Metadata = {
     "Instantly analyze any contract with AI. Get a risk score, plain-English insights, and actionable recommendations in seconds.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export default function RootLayout({
   children,
 }: {
